@@ -1,0 +1,310 @@
+
+.header_div {
+    /* position: fixed; */
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: hsl(0, 0%, 98%);
+    border-bottom: #C7C5C8 1px solid;
+}
+
+.om_theme{
+    background: #FFFFFF;
+    background-repeat: repeat;
+    background-position: top;  
+}
+
+    .om_header {
+        background:url('../img/footerBackground.jpg') top repeat;
+    }
+
+.mar{
+    color: #D76B00;
+}
+.drop{
+    list-style: none;
+    display: flex;
+
+     }
+     .drops{
+         border: none;
+         
+         background-color: rgba(243, 237, 237, 0.918);
+     }
+.dropdown-toggle{
+    background-color: rgba(243, 237, 237, 0.918);
+    border: none;
+} 
+.h-primary{
+    color: #D76B00;
+    font-size: 25px;
+    margin:5px 0%;
+    padding: 5px;
+    color: #e78e17;
+    font-size: 22px;
+    font-family: calibari;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px #ccc, -0.5px -0.5px #fff;
+}    
+.btn-group{
+ color: black;
+}     
+.nav-item dropdown
+#barcode_text{
+    width: 200%;
+  padding: 5px 2px;
+  margin: 3px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.frm-btn-log-out {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 4px;
+    border: solid 0px #000000;
+    cursor: pointer;
+    background: url(../img/logout.png) no-repeat;
+    background-color: transparent;
+    width: 18px;    
+    height: 18px;
+}
+.input-icon-height20  {
+    padding-left: 20px;
+}
+.input_border_red{
+    border:solid 1px #ccc;
+    border-radius: 6px;
+    background-color:#FFFFFF;
+    color: #B8860B;
+    font-family: calibri;
+    font-size:14px;
+    font-weight:normal;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.input_border_grey{
+    border:solid 1px #ccc;
+    border-radius: 6px;
+    background-color:#FFFFFF;
+    color: #A4A4A4;
+    font-family: calibri;
+    font-size:14px;
+    font-weight:normal;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.textLabel14CalibriReq{
+    color: #B8860B;
+    font-size:14px;
+    font-weight: normal;
+    font-family: Calibri;
+}
+.input_border_grey_center{
+    background-color:#FFFFFF;
+    color: #A4A4A4;
+    font-family: calibri;
+    font-size:14px;
+    font-weight:normal;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border: solid 1px #ccc;
+    text-align: center;
+}
+.input_border_red_center{
+    border:solid 1px #ccc;
+    border-radius: 6px;
+    background-color:#FFFFFF;
+    color: #B8860B;
+    font-family: calibri;
+    font-size:14px;
+    font-weight:normal;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.select_border_red{
+    color: #B8860B;
+    font-size:14px;
+    font-weight: normal;
+    font-family: Calibri;
+}
+.select_border_grey{
+    color: #A4A4A4;
+    font-size:14px;
+    font-weight: normal;
+    font-family: Calibri;
+}
+.textarea_border_grey{
+    width: 198px;
+    border: 1px solid #ccc;
+    padding: 0px;
+    color: #A4A4A4;
+    font-size:14px;
+    font-weight:normal;
+    font-family: calibri;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color:#FFFFFF;
+    overflow: auto;
+    resize: none;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.input_border_grey_right {
+    background-color:#FFFFFF;
+    color: #A4A4A4;
+    font-family: calibri;
+    font-size:14px;
+    font-weight:normal;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border: solid 1px #ccc;
+    text-align: right;
+    width: 131px;
+    padding-right: 66px;
+}
+.input_border_red_middle {
+    border:solid 1px #ccc;
+    border-radius: 6px;
+    background-color:#FFFFFF;
+    color: #B8860B;
+    font-family: calibri;
+    font-size:14px;
+    font-weight:normal;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.textarea{
+    border: 1px solid #ccc;
+    padding: 0px;
+    color: #A4A4A4;
+    font-size:14px;
+    font-weight:normal;
+    font-family: calibri;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color:#FFFFFF;
+    overflow: auto;
+    resize: none;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.textLabel14CalibriGrey{
+    color: #A4A4A4;
+    font-size:14px;
+    font-weight: normal;
+    font-family: Calibri;
+}
+.textLabel16CalibriNormalGreyMiddle{
+    color: #A4A4A4;
+    font-size:16px;
+    font-weight: normal;
+    font-family: Calibri;
+    text-align: center;
+}
+.inputBox14CalibriReqCenter{
+    color: #B8860B;
+    font-size:14px;
+    font-weight: normal;
+    font-family: Calibri;
+    text-align: center;
+}
+.textLabel14CalibriGreyMiddle{
+    color: #A4A4A4;
+    font-size:14px;
+    font-weight: normal;
+    font-family: Calibri;
+    text-align: center;
+}
+.textLabel24Calibri{
+    color: #B8860B;
+    font-size:24px;
+    font-weight:bold;
+    font-family: Calibri;
+}
+.textFieldWOB20{
+    border:none;
+    background-color:transparent;
+    color: #B8860B;
+    font-family: Calibri; /**change in font family @AUTHOR: SANDY21NOV13***/
+    font-size:20px;
+    font-weight:normal;
+    text-align: center;
+}
+.lgn-txtfield-arial {
+    border:solid 1px #AF7817;
+    background-color:#F9F9F9;
+    color: #A4A4A4;
+    font-family:Calibri;
+    font-size:12px;
+    font-weight:bold;
+}
+.textLabel12Calibri{
+    color: #B8860B;
+    font-size:12px;
+    font-weight: normal;
+    font-family: Calibri;
+}
+.textLabel12Calibri_non{
+    color: #A4A4A4;
+    font-size:12px;
+    font-weight: normal;
+    font-family: Calibri;
+}
+.textLabel12CalibriGrey{
+    color: #A4A4A4;
+    font-size:12px;
+    font-weight: normal;
+    font-family: Calibri;
+}
+.textLabel1 {
+    color: #008000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+.textLabel {
+    color: #0000FF;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Calibri;
+}
+.card{
+    border-radius: 5px !important; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.card-header{
+    border-radius: 5px;
+    color:#E56717;
+    font-size: 19px;
+    background: #f1f1f1;
+}
+.homebtn{
+    border-radius: 5px !important;
+    margin:unset;
+    height:25px;
+    width:100%;
+    font-weight:bold;
+    font-size:15px;
+    text-align:center;
+    color:#000080;
+    background-color: #89B2ED;
+}
+
+.mindiv{
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    background-image: url('../img/google_drive_backup2.png');
+    background-size: 100% 100%;
+}
+
+
